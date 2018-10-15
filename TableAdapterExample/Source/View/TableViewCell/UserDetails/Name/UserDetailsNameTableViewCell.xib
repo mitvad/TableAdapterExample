@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="UserDetailsNameTableViewCell" customModule="TableAdapterExample" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="43.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UmV-Tx-5EC">
+                        <rect key="frame" x="16" y="11.5" width="43" height="21"/>
+                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gmG-f8-69q">
+                        <rect key="frame" x="16" y="42.5" width="288" height="1"/>
+                        <color key="backgroundColor" red="0.94999999999999996" green="0.94999999999999996" blue="0.94999999999999996" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="9tr-z2-OxL"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="gmG-f8-69q" secondAttribute="trailing" constant="16" id="0Em-Bw-KK4"/>
+                    <constraint firstItem="UmV-Tx-5EC" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="2tE-RG-wNN"/>
+                    <constraint firstItem="gmG-f8-69q" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="N7E-sM-usq"/>
+                    <constraint firstAttribute="bottom" secondItem="gmG-f8-69q" secondAttribute="bottom" id="gGV-UJ-kDZ"/>
+                    <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="UmV-Tx-5EC" secondAttribute="trailing" constant="16" id="psZ-ri-gYc"/>
+                    <constraint firstItem="UmV-Tx-5EC" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="tOf-BD-Evq"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="nameLabel" destination="UmV-Tx-5EC" id="Wix-TD-ZM9"/>
+            </connections>
+            <point key="canvasLocation" x="121.59999999999999" y="48.575712143928037"/>
+        </tableViewCell>
+    </objects>
+</document>

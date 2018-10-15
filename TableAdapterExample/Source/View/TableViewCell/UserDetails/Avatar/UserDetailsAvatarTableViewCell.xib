@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="347" id="KGk-i7-Jjw" customClass="UserDetailsAvatarTableViewCell" customModule="TableAdapterExample" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="310" height="347"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="310" height="346.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="KNs-iD-bIb">
+                        <rect key="frame" x="0.0" y="0.0" width="310" height="346.5"/>
+                    </imageView>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="w1w-Ek-rhN">
+                        <rect key="frame" x="0.0" y="345.5" width="310" height="1"/>
+                        <color key="backgroundColor" red="0.94999999999999996" green="0.94999999999999996" blue="0.94999999999999996" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="ROa-IO-0wX"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="KNs-iD-bIb" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="5Tx-Kh-iT4"/>
+                    <constraint firstItem="w1w-Ek-rhN" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="IBB-Fh-khj"/>
+                    <constraint firstAttribute="trailing" secondItem="w1w-Ek-rhN" secondAttribute="trailing" id="Ic2-Ki-10Z"/>
+                    <constraint firstAttribute="trailing" secondItem="KNs-iD-bIb" secondAttribute="trailing" id="TQd-9Q-5fd"/>
+                    <constraint firstAttribute="bottom" secondItem="w1w-Ek-rhN" secondAttribute="bottom" id="e5a-ms-OqN"/>
+                    <constraint firstItem="KNs-iD-bIb" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="hnV-AD-Hdj"/>
+                    <constraint firstAttribute="bottom" secondItem="KNs-iD-bIb" secondAttribute="bottom" id="qrB-Vp-c6i"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="avatarImageView" destination="KNs-iD-bIb" id="Joq-EU-Qwx"/>
+            </connections>
+            <point key="canvasLocation" x="129.59999999999999" y="247.82608695652175"/>
+        </tableViewCell>
+    </objects>
+</document>

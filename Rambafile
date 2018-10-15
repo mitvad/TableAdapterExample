@@ -1,0 +1,23 @@
+### Headers settings
+company: Vadym Mitin
+
+### Xcode project settings
+project_name: TableAdapterExample
+xcodeproj_path: TableAdapterExample.xcodeproj
+
+### Code generation settings section
+# The main project target name
+project_target: TableAdapterExample
+
+# The file path for new modules
+project_file_path: TableAdapterExample/Source/Module
+
+# The Xcode group path to new modules
+project_group_path: TableAdapterExample/Source/Module
+
+### Dependencies settings section
+# podfile_path: Podfile
+
+### Templates
+templates:
+ - {name: viper_screen}
