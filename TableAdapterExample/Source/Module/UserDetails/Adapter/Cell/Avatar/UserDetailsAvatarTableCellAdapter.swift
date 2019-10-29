@@ -35,6 +35,10 @@ extension UserDetailsAvatarTableCellAdapter: TableCellAdapterInput {
         let displayModel = output.avatarDisplayModel()
         cell.setup(displayModel)
         
+        cell.onTap = { [weak self] in
+            self?.output.avatarDidTouch()
+        }
+        
         return cell
     }
     

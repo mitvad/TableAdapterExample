@@ -11,4 +11,5 @@ import Foundation
 protocol UserDetailsAvatarTableCellAdapterOutput: AnyObject {
     
     func avatarDisplayModel() -> UserDetailsAvatarCellDisplayModel
+    func avatarDidTouch()
 }

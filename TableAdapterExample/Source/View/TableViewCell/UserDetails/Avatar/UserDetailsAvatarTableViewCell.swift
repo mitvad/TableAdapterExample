@@ -13,7 +13,20 @@ class UserDetailsAvatarTableViewCell: UITableViewCell {
     
     @IBOutlet weak var avatarImageView: UIImageView!
     
+    var onTap: (() -> Void)?
+    
+    override func awakeFromNib() {
+        super.awakeFromNib()
+        
+        let tap = UITapGestureRecognizer(target: self, action: #selector(didTouchAvatar))
+        avatarImageView.addGestureRecognizer(tap)
+    }
+    
     func setup(_ displayModel: UserDetailsAvatarCellDisplayModel) {
         avatarImageView.kf.setImage(with: displayModel.avatarURL)
+    }
+    
+    @objc func didTouchAvatar() {
+        onTap?()
     }
 }

@@ -43,6 +43,33 @@ extension UserDetailsPresenter: UserDetailsAvatarTableCellAdapterOutput {
         
         return UserDetailsAvatarCellDisplayModel(avatarURL: url)
     }
+    
+    func avatarDidTouch() {
+        let configuration = AlertScreenConfiguration(title: nil, message: nil)
+        
+        let cameraTitle = "screen.alert.button.camera".localized()
+        let cameraAction = AlertScreenAction(title: cameraTitle, style: .default) { [weak self] in
+            guard let strongSelf = self else { return }
+            
+//            strongSelf.imagePickerModule = strongSelf.router.showCameraPicker(moduleOutput: strongSelf, allowsEditing: true)
+        }
+        
+        let photoLibraryTitle = "screen.alert.button.photoLibrary".localized()
+        let photoLibratyAction = AlertScreenAction(title: photoLibraryTitle, style: .default) { [weak self] in
+            guard let strongSelf = self else { return }
+            
+//            strongSelf.imagePickerModule = strongSelf.router.showGalleryPicker(moduleOutput: strongSelf, allowsEditing: true)
+        }
+        
+        let cancelTitle = "screen.alert.button.cancel".localized()
+        let cancelAction = AlertScreenAction(title: cancelTitle, style: .cancel, handler: nil)
+        
+        configuration.addAction(cameraAction)
+        configuration.addAction(photoLibratyAction)
+        configuration.addAction(cancelAction)
+        
+        router.presentActionSheet(configuration: configuration)
+    }
 }
 
 // MARK: - UserDetailsFirstNameTableCellAdapterOutput
