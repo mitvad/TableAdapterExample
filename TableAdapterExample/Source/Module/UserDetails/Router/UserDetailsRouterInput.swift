@@ -8,4 +8,4 @@
 
 import Foundation
 
-protocol UserDetailsRouterInput: ShowAlertScreenRouter {}
+protocol UserDetailsRouterInput: ShowAlertScreenRouter, ShowImagePickerModuleRouter {}

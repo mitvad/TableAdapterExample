@@ -6,7 +6,7 @@
 //  Copyright © 2018 Vadym Mitin. All rights reserved.
 //
 
-import Foundation
+import UIKit
 
 class UserDetailsPresenter {
 
@@ -15,6 +15,10 @@ class UserDetailsPresenter {
     weak var view: UserDetailsViewInput!
     
     let user: User
+    
+    private var avatarImage: UIImage?
+    
+    private var imagePickerModule: ImagePickerModuleInput?
     
     init(user: User) {
         self.user = user
@@ -51,14 +55,14 @@ extension UserDetailsPresenter: UserDetailsAvatarTableCellAdapterOutput {
         let cameraAction = AlertScreenAction(title: cameraTitle, style: .default) { [weak self] in
             guard let strongSelf = self else { return }
             
-//            strongSelf.imagePickerModule = strongSelf.router.showCameraPicker(moduleOutput: strongSelf, allowsEditing: true)
+            strongSelf.imagePickerModule = strongSelf.router.showCameraPicker(moduleOutput: strongSelf, allowsEditing: true)
         }
         
         let photoLibraryTitle = "screen.alert.button.photoLibrary".localized()
         let photoLibratyAction = AlertScreenAction(title: photoLibraryTitle, style: .default) { [weak self] in
             guard let strongSelf = self else { return }
             
-//            strongSelf.imagePickerModule = strongSelf.router.showGalleryPicker(moduleOutput: strongSelf, allowsEditing: true)
+            strongSelf.imagePickerModule = strongSelf.router.showGalleryPicker(moduleOutput: strongSelf, allowsEditing: true)
         }
         
         let cancelTitle = "screen.alert.button.cancel".localized()
@@ -104,5 +108,21 @@ extension UserDetailsPresenter: UserDetailsLastPositionTableCellAdapterOutput {
         }
         
         return UserDetailsPositionCellDisplayModel(position: position, experience: experience)
+    }
+}
+
+// MARK: - ImagePickerModuleOutput
+extension UserDetailsPresenter: ImagePickerModuleOutput {
+    func imageDidPicked(_ image: UIImage) {
+        
+        imagePickerModule?.dismiss(completion: nil)
+        imagePickerModule = nil
+        
+        avatarImage = image
+    }
+    
+    func imagePickerDidCancel() {
+        imagePickerModule?.dismiss(completion: nil)
+        imagePickerModule = nil
     }
 }

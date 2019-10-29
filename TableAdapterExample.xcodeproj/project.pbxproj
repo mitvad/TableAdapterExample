@@ -55,6 +55,10 @@
 		CDD87DCE2368E35D004BAE0F /* AlertScreenConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDD87DCD2368E35D004BAE0F /* AlertScreenConfiguration.swift */; };
 		CDD87DD02368E36C004BAE0F /* ShowAlertScreenRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDD87DCF2368E36C004BAE0F /* ShowAlertScreenRouter.swift */; };
 		CDD87DD22368E3C0004BAE0F /* String+Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDD87DD12368E3C0004BAE0F /* String+Localization.swift */; };
+		CDD87DD52368E8FD004BAE0F /* ImagePickerModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDD87DD42368E8FD004BAE0F /* ImagePickerModule.swift */; };
+		CDD87DD72368E91C004BAE0F /* ImagePickerModuleOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDD87DD62368E91C004BAE0F /* ImagePickerModuleOutput.swift */; };
+		CDD87DD92368E933004BAE0F /* ShowImagePickerModuleRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDD87DD82368E933004BAE0F /* ShowImagePickerModuleRouter.swift */; };
+		CDD87DDB2368E94A004BAE0F /* ImagePickerModuleInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDD87DDA2368E94A004BAE0F /* ImagePickerModuleInput.swift */; };
 		DA958A28453E9A04945E4A36 /* UserDetailsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5A7341C4EE2F834DF0CBFC /* UserDetailsPresenter.swift */; };
 		DDC664EB23C9BE8F27DC21DF /* UserDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CCCAA4A0D665FB2365FD26A /* UserDetailsViewController.swift */; };
 		DEE0B1798DC1AAD2C54C30CB /* UserDetailsRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C22BE7DD5D27F108B3DC342 /* UserDetailsRouter.swift */; };
@@ -117,6 +121,10 @@
 		CDD87DCD2368E35D004BAE0F /* AlertScreenConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertScreenConfiguration.swift; sourceTree = "<group>"; };
 		CDD87DCF2368E36C004BAE0F /* ShowAlertScreenRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowAlertScreenRouter.swift; sourceTree = "<group>"; };
 		CDD87DD12368E3C0004BAE0F /* String+Localization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Localization.swift"; sourceTree = "<group>"; };
+		CDD87DD42368E8FD004BAE0F /* ImagePickerModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerModule.swift; sourceTree = "<group>"; };
+		CDD87DD62368E91C004BAE0F /* ImagePickerModuleOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerModuleOutput.swift; sourceTree = "<group>"; };
+		CDD87DD82368E933004BAE0F /* ShowImagePickerModuleRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowImagePickerModuleRouter.swift; sourceTree = "<group>"; };
+		CDD87DDA2368E94A004BAE0F /* ImagePickerModuleInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerModuleInput.swift; sourceTree = "<group>"; };
 		D05AC8B54F9E7DD4936FFE2C /* UserDetailsViewOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UserDetailsViewOutput.swift; sourceTree = "<group>"; };
 		E382680FF6BB7BA03274DCF1 /* UsersListRouter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UsersListRouter.swift; sourceTree = "<group>"; };
 		EC5A7341C4EE2F834DF0CBFC /* UserDetailsPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UserDetailsPresenter.swift; sourceTree = "<group>"; };
@@ -335,6 +343,7 @@
 				178EFE957775678BF1EAAB2C /* UsersList */,
 				04FA885E568C5737200B46FA /* UserDetails */,
 				CDD87DCC2368E344004BAE0F /* AlertScreen */,
+				CDD87DD32368E8E8004BAE0F /* ImagePicker */,
 			);
 			path = Module;
 			sourceTree = "<group>";
@@ -493,6 +502,17 @@
 			path = AlertScreen;
 			sourceTree = "<group>";
 		};
+		CDD87DD32368E8E8004BAE0F /* ImagePicker */ = {
+			isa = PBXGroup;
+			children = (
+				CDD87DD42368E8FD004BAE0F /* ImagePickerModule.swift */,
+				CDD87DD62368E91C004BAE0F /* ImagePickerModuleOutput.swift */,
+				CDD87DD82368E933004BAE0F /* ShowImagePickerModuleRouter.swift */,
+				CDD87DDA2368E94A004BAE0F /* ImagePickerModuleInput.swift */,
+			);
+			path = ImagePicker;
+			sourceTree = "<group>";
+		};
 		EBDBB785B6A8F1EE75B2C9DA /* Presenter */ = {
 			isa = PBXGroup;
 			children = (
@@ -627,6 +647,7 @@
 				CDB0D2462174CE300082CB25 /* UserDetailsAvatarTableCellAdapterOutput.swift in Sources */,
 				CD7873FA2174DB850063130A /* UserDetailsFirstNameTableCellAdapterOutput.swift in Sources */,
 				CDB0D2172174AF5A0082CB25 /* TableSectionAdapterInput.swift in Sources */,
+				CDD87DD72368E91C004BAE0F /* ImagePickerModuleOutput.swift in Sources */,
 				CD7874092174E3010063130A /* UserDetailsLastPositionTableCellAdapterOutput.swift in Sources */,
 				CDB0D2122174ADCF0082CB25 /* TableViewAdapterInput.swift in Sources */,
 				CDB0D21A2174AFEC0082CB25 /* TableCellAdapterInput.swift in Sources */,
@@ -648,6 +669,7 @@
 				9EDC0E2308FD9B9B15E4F4C4 /* UsersListRouter.swift in Sources */,
 				CD7873F82174DB6A0063130A /* UserDetailsFirstNameTableCellAdapter.swift in Sources */,
 				EEA15193BD7D07FF2C5F77C6 /* UsersListConfigurator.swift in Sources */,
+				CDD87DDB2368E94A004BAE0F /* ImagePickerModuleInput.swift in Sources */,
 				CDB0D22E2174BC9B0082CB25 /* UsersTableSectionAdapterOutput.swift in Sources */,
 				CDB0D22C2174BC720082CB25 /* UsersTableSectionAdapter.swift in Sources */,
 				CDB0D2442174CE130082CB25 /* UserDetailsAvatarTableCellAdapter.swift in Sources */,
@@ -662,6 +684,8 @@
 				CD7873F32174D9DC0063130A /* UserDetailsNameTableViewCell.swift in Sources */,
 				AF377B888B943CDB1C6A933A /* UserDetailsConfigurator.swift in Sources */,
 				CD7874052174E0860063130A /* UserDetailsPositionCellDisplayModel.swift in Sources */,
+				CDD87DD52368E8FD004BAE0F /* ImagePickerModule.swift in Sources */,
+				CDD87DD92368E933004BAE0F /* ShowImagePickerModuleRouter.swift in Sources */,
 				CD7874072174E2EA0063130A /* UserDetailsLastPositionTableCellAdapter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
