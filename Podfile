@@ -6,5 +6,5 @@ target 'TableAdapterExample' do
   use_frameworks!
 
   # Pods for TableAdapterExample
-pod 'Kingfisher', '~> 4.10.0'
+pod 'Kingfisher'
 end
