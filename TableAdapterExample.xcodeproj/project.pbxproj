@@ -59,6 +59,21 @@
 		CDD87DD72368E91C004BAE0F /* ImagePickerModuleOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDD87DD62368E91C004BAE0F /* ImagePickerModuleOutput.swift */; };
 		CDD87DD92368E933004BAE0F /* ShowImagePickerModuleRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDD87DD82368E933004BAE0F /* ShowImagePickerModuleRouter.swift */; };
 		CDD87DDB2368E94A004BAE0F /* ImagePickerModuleInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDD87DDA2368E94A004BAE0F /* ImagePickerModuleInput.swift */; };
+		CDEF76EB2378940F00E63AAA /* TabBarModuleOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDEF76D92378940E00E63AAA /* TabBarModuleOutput.swift */; };
+		CDEF76EC2378940F00E63AAA /* TabBarPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDEF76DA2378940E00E63AAA /* TabBarPresenter.swift */; };
+		CDEF76ED2378940F00E63AAA /* TabBarModuleInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDEF76DB2378940E00E63AAA /* TabBarModuleInput.swift */; };
+		CDEF76EE2378940F00E63AAA /* TabBarViewInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDEF76DD2378940E00E63AAA /* TabBarViewInput.swift */; };
+		CDEF76EF2378940F00E63AAA /* TabBarViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDEF76DE2378940E00E63AAA /* TabBarViewOutput.swift */; };
+		CDEF76F02378940F00E63AAA /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDEF76DF2378940E00E63AAA /* TabBarViewController.swift */; };
+		CDEF76F12378940F00E63AAA /* TabBarViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDEF76E02378940E00E63AAA /* TabBarViewController.storyboard */; };
+		CDEF76F22378940F00E63AAA /* TabBarConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDEF76E22378940E00E63AAA /* TabBarConfigurator.swift */; };
+		CDEF76F32378940F00E63AAA /* TabBarInteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDEF76E42378940E00E63AAA /* TabBarInteractorInput.swift */; };
+		CDEF76F42378940F00E63AAA /* TabBarInteractorOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDEF76E52378940E00E63AAA /* TabBarInteractorOutput.swift */; };
+		CDEF76F52378940F00E63AAA /* TabBarInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDEF76E62378940E00E63AAA /* TabBarInteractor.swift */; };
+		CDEF76F62378940F00E63AAA /* TabBarRouterShowProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDEF76E82378940E00E63AAA /* TabBarRouterShowProtocol.swift */; };
+		CDEF76F72378940F00E63AAA /* TabBarRouterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDEF76E92378940E00E63AAA /* TabBarRouterInput.swift */; };
+		CDEF76F82378940F00E63AAA /* TabBarRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDEF76EA2378940E00E63AAA /* TabBarRouter.swift */; };
+		CDEF76FA2378946800E63AAA /* UINavigationController+Replace.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDEF76F92378946800E63AAA /* UINavigationController+Replace.swift */; };
 		DA958A28453E9A04945E4A36 /* UserDetailsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5A7341C4EE2F834DF0CBFC /* UserDetailsPresenter.swift */; };
 		DDC664EB23C9BE8F27DC21DF /* UserDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CCCAA4A0D665FB2365FD26A /* UserDetailsViewController.swift */; };
 		DEE0B1798DC1AAD2C54C30CB /* UserDetailsRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C22BE7DD5D27F108B3DC342 /* UserDetailsRouter.swift */; };
@@ -125,6 +140,21 @@
 		CDD87DD62368E91C004BAE0F /* ImagePickerModuleOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerModuleOutput.swift; sourceTree = "<group>"; };
 		CDD87DD82368E933004BAE0F /* ShowImagePickerModuleRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowImagePickerModuleRouter.swift; sourceTree = "<group>"; };
 		CDD87DDA2368E94A004BAE0F /* ImagePickerModuleInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerModuleInput.swift; sourceTree = "<group>"; };
+		CDEF76D92378940E00E63AAA /* TabBarModuleOutput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarModuleOutput.swift; sourceTree = "<group>"; };
+		CDEF76DA2378940E00E63AAA /* TabBarPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarPresenter.swift; sourceTree = "<group>"; };
+		CDEF76DB2378940E00E63AAA /* TabBarModuleInput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarModuleInput.swift; sourceTree = "<group>"; };
+		CDEF76DD2378940E00E63AAA /* TabBarViewInput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarViewInput.swift; sourceTree = "<group>"; };
+		CDEF76DE2378940E00E63AAA /* TabBarViewOutput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarViewOutput.swift; sourceTree = "<group>"; };
+		CDEF76DF2378940E00E63AAA /* TabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		CDEF76E02378940E00E63AAA /* TabBarViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = TabBarViewController.storyboard; sourceTree = "<group>"; };
+		CDEF76E22378940E00E63AAA /* TabBarConfigurator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarConfigurator.swift; sourceTree = "<group>"; };
+		CDEF76E42378940E00E63AAA /* TabBarInteractorInput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarInteractorInput.swift; sourceTree = "<group>"; };
+		CDEF76E52378940E00E63AAA /* TabBarInteractorOutput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarInteractorOutput.swift; sourceTree = "<group>"; };
+		CDEF76E62378940E00E63AAA /* TabBarInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarInteractor.swift; sourceTree = "<group>"; };
+		CDEF76E82378940E00E63AAA /* TabBarRouterShowProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarRouterShowProtocol.swift; sourceTree = "<group>"; };
+		CDEF76E92378940E00E63AAA /* TabBarRouterInput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarRouterInput.swift; sourceTree = "<group>"; };
+		CDEF76EA2378940E00E63AAA /* TabBarRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarRouter.swift; sourceTree = "<group>"; };
+		CDEF76F92378946800E63AAA /* UINavigationController+Replace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UINavigationController+Replace.swift"; sourceTree = "<group>"; };
 		D05AC8B54F9E7DD4936FFE2C /* UserDetailsViewOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UserDetailsViewOutput.swift; sourceTree = "<group>"; };
 		E382680FF6BB7BA03274DCF1 /* UsersListRouter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UsersListRouter.swift; sourceTree = "<group>"; };
 		EC5A7341C4EE2F834DF0CBFC /* UserDetailsPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UserDetailsPresenter.swift; sourceTree = "<group>"; };
@@ -340,6 +370,7 @@
 		CDB0D21D2174B0D70082CB25 /* Module */ = {
 			isa = PBXGroup;
 			children = (
+				CDEF76D72378940E00E63AAA /* TabBar */,
 				178EFE957775678BF1EAAB2C /* UsersList */,
 				04FA885E568C5737200B46FA /* UserDetails */,
 				CDD87DCC2368E344004BAE0F /* AlertScreen */,
@@ -354,6 +385,7 @@
 				CDB0D2272174BB9E0082CB25 /* UIViewController+Storyboard.swift */,
 				CDB0D2382174C07E0082CB25 /* UIView+Nib.swift */,
 				CDD87DD12368E3C0004BAE0F /* String+Localization.swift */,
+				CDEF76F92378946800E63AAA /* UINavigationController+Replace.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -513,6 +545,67 @@
 			path = ImagePicker;
 			sourceTree = "<group>";
 		};
+		CDEF76D72378940E00E63AAA /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				CDEF76DC2378940E00E63AAA /* View */,
+				CDEF76D82378940E00E63AAA /* Presenter */,
+				CDEF76E72378940E00E63AAA /* Router */,
+				CDEF76E32378940E00E63AAA /* Interactor */,
+				CDEF76E12378940E00E63AAA /* Configurator */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		CDEF76D82378940E00E63AAA /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				CDEF76D92378940E00E63AAA /* TabBarModuleOutput.swift */,
+				CDEF76DA2378940E00E63AAA /* TabBarPresenter.swift */,
+				CDEF76DB2378940E00E63AAA /* TabBarModuleInput.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		CDEF76DC2378940E00E63AAA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CDEF76DD2378940E00E63AAA /* TabBarViewInput.swift */,
+				CDEF76DE2378940E00E63AAA /* TabBarViewOutput.swift */,
+				CDEF76DF2378940E00E63AAA /* TabBarViewController.swift */,
+				CDEF76E02378940E00E63AAA /* TabBarViewController.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CDEF76E12378940E00E63AAA /* Configurator */ = {
+			isa = PBXGroup;
+			children = (
+				CDEF76E22378940E00E63AAA /* TabBarConfigurator.swift */,
+			);
+			path = Configurator;
+			sourceTree = "<group>";
+		};
+		CDEF76E32378940E00E63AAA /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				CDEF76E42378940E00E63AAA /* TabBarInteractorInput.swift */,
+				CDEF76E52378940E00E63AAA /* TabBarInteractorOutput.swift */,
+				CDEF76E62378940E00E63AAA /* TabBarInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		CDEF76E72378940E00E63AAA /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				CDEF76E82378940E00E63AAA /* TabBarRouterShowProtocol.swift */,
+				CDEF76E92378940E00E63AAA /* TabBarRouterInput.swift */,
+				CDEF76EA2378940E00E63AAA /* TabBarRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
 		EBDBB785B6A8F1EE75B2C9DA /* Presenter */ = {
 			isa = PBXGroup;
 			children = (
@@ -588,6 +681,7 @@
 				CDB0D2052174AD6F0082CB25 /* Assets.xcassets in Resources */,
 				CD7873F42174D9DC0063130A /* UserDetailsNameTableViewCell.xib in Resources */,
 				CDB0D2252174BAEC0082CB25 /* UsersListViewController.storyboard in Resources */,
+				CDEF76F12378940F00E63AAA /* TabBarViewController.storyboard in Resources */,
 				CDB0D2352174BDA80082CB25 /* UserTableViewCell.xib in Resources */,
 				ED1291940FC54AC079F2246E /* UserDetailsViewController.storyboard in Resources */,
 			);
@@ -641,32 +735,41 @@
 			files = (
 				CDB0D21C2174B0410082CB25 /* CellsSetTableSectionAdapter.swift in Sources */,
 				CD7873F62174DA250063130A /* UserDetailsNameCellDisplayModel.swift in Sources */,
+				CDEF76F52378940F00E63AAA /* TabBarInteractor.swift in Sources */,
 				CDB0D2142174AED40082CB25 /* TableViewAdapter.swift in Sources */,
 				CDB0D2372174BE290082CB25 /* UserCellDisplayModel.swift in Sources */,
+				CDEF76F02378940F00E63AAA /* TabBarViewController.swift in Sources */,
 				CDB0D1FE2174AD6C0082CB25 /* AppDelegate.swift in Sources */,
 				CDB0D2462174CE300082CB25 /* UserDetailsAvatarTableCellAdapterOutput.swift in Sources */,
 				CD7873FA2174DB850063130A /* UserDetailsFirstNameTableCellAdapterOutput.swift in Sources */,
 				CDB0D2172174AF5A0082CB25 /* TableSectionAdapterInput.swift in Sources */,
 				CDD87DD72368E91C004BAE0F /* ImagePickerModuleOutput.swift in Sources */,
 				CD7874092174E3010063130A /* UserDetailsLastPositionTableCellAdapterOutput.swift in Sources */,
+				CDEF76ED2378940F00E63AAA /* TabBarModuleInput.swift in Sources */,
 				CDB0D2122174ADCF0082CB25 /* TableViewAdapterInput.swift in Sources */,
 				CDB0D21A2174AFEC0082CB25 /* TableCellAdapterInput.swift in Sources */,
 				CDB0D24B2174CF4C0082CB25 /* UserDetailsAvatarTableViewCell.swift in Sources */,
 				CDB0D2282174BB9E0082CB25 /* UIViewController+Storyboard.swift in Sources */,
 				CDD87DD02368E36C004BAE0F /* ShowAlertScreenRouter.swift in Sources */,
 				CD7874022174E0530063130A /* UserDetailsPositionTableViewCell.swift in Sources */,
+				CDEF76EB2378940F00E63AAA /* TabBarModuleOutput.swift in Sources */,
 				03B92BAA2FFB1DE31EC09DCF /* UsersListViewInput.swift in Sources */,
 				CDB0D23C2174C34E0082CB25 /* User.swift in Sources */,
 				7C766AC6D761957C2B6A965A /* UsersListViewOutput.swift in Sources */,
+				CDEF76EC2378940F00E63AAA /* TabBarPresenter.swift in Sources */,
 				CDD87DCE2368E35D004BAE0F /* AlertScreenConfiguration.swift in Sources */,
+				CDEF76EE2378940F00E63AAA /* TabBarViewInput.swift in Sources */,
 				CDB0D24E2174CF860082CB25 /* UserDetailsAvatarCellDisplayModel.swift in Sources */,
+				CDEF76F42378940F00E63AAA /* TabBarInteractorOutput.swift in Sources */,
 				837B77F40EAF2A9FF3ED9F8E /* UsersListViewController.swift in Sources */,
 				0348C92B7293A250A689725D /* UsersListPresenter.swift in Sources */,
 				CDB0D2342174BDA80082CB25 /* UserTableViewCell.swift in Sources */,
 				CDD87DD22368E3C0004BAE0F /* String+Localization.swift in Sources */,
+				CDEF76EF2378940F00E63AAA /* TabBarViewOutput.swift in Sources */,
 				CD7873FC2174DE970063130A /* UserDetailsLastNameTableCellAdapter.swift in Sources */,
 				A529B73C9C82C69B0855C8D4 /* UsersListRouterInput.swift in Sources */,
 				9EDC0E2308FD9B9B15E4F4C4 /* UsersListRouter.swift in Sources */,
+				CDEF76F82378940F00E63AAA /* TabBarRouter.swift in Sources */,
 				CD7873F82174DB6A0063130A /* UserDetailsFirstNameTableCellAdapter.swift in Sources */,
 				EEA15193BD7D07FF2C5F77C6 /* UsersListConfigurator.swift in Sources */,
 				CDD87DDB2368E94A004BAE0F /* ImagePickerModuleInput.swift in Sources */,
@@ -674,17 +777,22 @@
 				CDB0D22C2174BC720082CB25 /* UsersTableSectionAdapter.swift in Sources */,
 				CDB0D2442174CE130082CB25 /* UserDetailsAvatarTableCellAdapter.swift in Sources */,
 				CDB0D2392174C07E0082CB25 /* UIView+Nib.swift in Sources */,
+				CDEF76FA2378946800E63AAA /* UINavigationController+Replace.swift in Sources */,
 				3678A0E9283BEB89E35CAE34 /* UserDetailsViewInput.swift in Sources */,
 				2AC87C2449B056C183A792E4 /* UserDetailsViewOutput.swift in Sources */,
 				DDC664EB23C9BE8F27DC21DF /* UserDetailsViewController.swift in Sources */,
 				DA958A28453E9A04945E4A36 /* UserDetailsPresenter.swift in Sources */,
 				4317EE16860895D114173343 /* UserDetailsRouterInput.swift in Sources */,
+				CDEF76F22378940F00E63AAA /* TabBarConfigurator.swift in Sources */,
 				DEE0B1798DC1AAD2C54C30CB /* UserDetailsRouter.swift in Sources */,
 				CD7873FE2174DEBE0063130A /* UserDetailsLastNameTableCellAdapterOutput.swift in Sources */,
+				CDEF76F72378940F00E63AAA /* TabBarRouterInput.swift in Sources */,
 				CD7873F32174D9DC0063130A /* UserDetailsNameTableViewCell.swift in Sources */,
 				AF377B888B943CDB1C6A933A /* UserDetailsConfigurator.swift in Sources */,
 				CD7874052174E0860063130A /* UserDetailsPositionCellDisplayModel.swift in Sources */,
 				CDD87DD52368E8FD004BAE0F /* ImagePickerModule.swift in Sources */,
+				CDEF76F32378940F00E63AAA /* TabBarInteractorInput.swift in Sources */,
+				CDEF76F62378940F00E63AAA /* TabBarRouterShowProtocol.swift in Sources */,
 				CDD87DD92368E933004BAE0F /* ShowImagePickerModuleRouter.swift in Sources */,
 				CD7874072174E2EA0063130A /* UserDetailsLastPositionTableCellAdapter.swift in Sources */,
 			);

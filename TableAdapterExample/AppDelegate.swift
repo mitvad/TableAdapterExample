@@ -34,10 +34,10 @@ extension AppDelegate {
         
         applicationWindow.makeKeyAndVisible()
         
-        let usersListVC = UsersListViewController.instantiateFromStoryboard()
-        let configurator = UsersListModuleConfigurator()
-        configurator.configure(viewController: usersListVC)
-        navigationVC.pushViewController(usersListVC, animated: true)
+        let tabbarCV = TabBarViewController.instantiateFromStoryboard()
+        let configurator = TabBarModuleConfigurator()
+        configurator.configure(viewController: tabbarCV)
+        navigationVC.pushViewController(tabbarCV, animated: true)
         
         window = applicationWindow
     }
