@@ -74,6 +74,19 @@
 		CDEF76F72378940F00E63AAA /* TabBarRouterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDEF76E92378940E00E63AAA /* TabBarRouterInput.swift */; };
 		CDEF76F82378940F00E63AAA /* TabBarRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDEF76EA2378940E00E63AAA /* TabBarRouter.swift */; };
 		CDEF76FA2378946800E63AAA /* UINavigationController+Replace.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDEF76F92378946800E63AAA /* UINavigationController+Replace.swift */; };
+		CDEF770C2378B02A00E63AAA /* ApplicationSate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDEF76FD2378B02A00E63AAA /* ApplicationSate.swift */; };
+		CDEF770D2378B02A00E63AAA /* InitialScreenModuleInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDEF76FF2378B02A00E63AAA /* InitialScreenModuleInput.swift */; };
+		CDEF770E2378B02A00E63AAA /* InitialScreenPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDEF77002378B02A00E63AAA /* InitialScreenPresenter.swift */; };
+		CDEF770F2378B02A00E63AAA /* ApplicationWindowOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDEF77022378B02A00E63AAA /* ApplicationWindowOutput.swift */; };
+		CDEF77102378B02A00E63AAA /* ApplicationWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDEF77032378B02A00E63AAA /* ApplicationWindow.swift */; };
+		CDEF77112378B02A00E63AAA /* InitialScreenViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDEF77052378B02A00E63AAA /* InitialScreenViewController.storyboard */; };
+		CDEF77122378B02A00E63AAA /* InitialScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDEF77062378B02A00E63AAA /* InitialScreenViewController.swift */; };
+		CDEF77132378B02A00E63AAA /* InitialScreenConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDEF77082378B02A00E63AAA /* InitialScreenConfigurator.swift */; };
+		CDEF77142378B02A00E63AAA /* InitialScreenRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDEF770A2378B02A00E63AAA /* InitialScreenRouter.swift */; };
+		CDEF77152378B02A00E63AAA /* InitialScreenRouterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDEF770B2378B02A00E63AAA /* InitialScreenRouterInput.swift */; };
+		CDEF771A2378B12700E63AAA /* InitialScreenInteractorOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDEF77172378B12700E63AAA /* InitialScreenInteractorOutput.swift */; };
+		CDEF771B2378B12700E63AAA /* InitialScreenInteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDEF77182378B12700E63AAA /* InitialScreenInteractorInput.swift */; };
+		CDEF771C2378B12700E63AAA /* InitialScreenInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDEF77192378B12700E63AAA /* InitialScreenInteractor.swift */; };
 		DA958A28453E9A04945E4A36 /* UserDetailsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5A7341C4EE2F834DF0CBFC /* UserDetailsPresenter.swift */; };
 		DDC664EB23C9BE8F27DC21DF /* UserDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CCCAA4A0D665FB2365FD26A /* UserDetailsViewController.swift */; };
 		DEE0B1798DC1AAD2C54C30CB /* UserDetailsRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C22BE7DD5D27F108B3DC342 /* UserDetailsRouter.swift */; };
@@ -155,6 +168,19 @@
 		CDEF76E92378940E00E63AAA /* TabBarRouterInput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarRouterInput.swift; sourceTree = "<group>"; };
 		CDEF76EA2378940E00E63AAA /* TabBarRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarRouter.swift; sourceTree = "<group>"; };
 		CDEF76F92378946800E63AAA /* UINavigationController+Replace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UINavigationController+Replace.swift"; sourceTree = "<group>"; };
+		CDEF76FD2378B02A00E63AAA /* ApplicationSate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApplicationSate.swift; sourceTree = "<group>"; };
+		CDEF76FF2378B02A00E63AAA /* InitialScreenModuleInput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InitialScreenModuleInput.swift; sourceTree = "<group>"; };
+		CDEF77002378B02A00E63AAA /* InitialScreenPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InitialScreenPresenter.swift; sourceTree = "<group>"; };
+		CDEF77022378B02A00E63AAA /* ApplicationWindowOutput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApplicationWindowOutput.swift; sourceTree = "<group>"; };
+		CDEF77032378B02A00E63AAA /* ApplicationWindow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApplicationWindow.swift; sourceTree = "<group>"; };
+		CDEF77052378B02A00E63AAA /* InitialScreenViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = InitialScreenViewController.storyboard; sourceTree = "<group>"; };
+		CDEF77062378B02A00E63AAA /* InitialScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InitialScreenViewController.swift; sourceTree = "<group>"; };
+		CDEF77082378B02A00E63AAA /* InitialScreenConfigurator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InitialScreenConfigurator.swift; sourceTree = "<group>"; };
+		CDEF770A2378B02A00E63AAA /* InitialScreenRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InitialScreenRouter.swift; sourceTree = "<group>"; };
+		CDEF770B2378B02A00E63AAA /* InitialScreenRouterInput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InitialScreenRouterInput.swift; sourceTree = "<group>"; };
+		CDEF77172378B12700E63AAA /* InitialScreenInteractorOutput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InitialScreenInteractorOutput.swift; sourceTree = "<group>"; };
+		CDEF77182378B12700E63AAA /* InitialScreenInteractorInput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InitialScreenInteractorInput.swift; sourceTree = "<group>"; };
+		CDEF77192378B12700E63AAA /* InitialScreenInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InitialScreenInteractor.swift; sourceTree = "<group>"; };
 		D05AC8B54F9E7DD4936FFE2C /* UserDetailsViewOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UserDetailsViewOutput.swift; sourceTree = "<group>"; };
 		E382680FF6BB7BA03274DCF1 /* UsersListRouter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UsersListRouter.swift; sourceTree = "<group>"; };
 		EC5A7341C4EE2F834DF0CBFC /* UserDetailsPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UserDetailsPresenter.swift; sourceTree = "<group>"; };
@@ -370,6 +396,7 @@
 		CDB0D21D2174B0D70082CB25 /* Module */ = {
 			isa = PBXGroup;
 			children = (
+				CDEF76FB2378B02A00E63AAA /* InitialScreen */,
 				CDEF76D72378940E00E63AAA /* TabBar */,
 				178EFE957775678BF1EAAB2C /* UsersList */,
 				04FA885E568C5737200B46FA /* UserDetails */,
@@ -606,6 +633,82 @@
 			path = Router;
 			sourceTree = "<group>";
 		};
+		CDEF76FB2378B02A00E63AAA /* InitialScreen */ = {
+			isa = PBXGroup;
+			children = (
+				CDEF76FC2378B02A00E63AAA /* Entity */,
+				CDEF77012378B02A00E63AAA /* Window */,
+				CDEF77042378B02A00E63AAA /* View */,
+				CDEF76FE2378B02A00E63AAA /* Presenter */,
+				CDEF77092378B02A00E63AAA /* Router */,
+				CDEF77162378B12700E63AAA /* Interactor */,
+				CDEF77072378B02A00E63AAA /* Configurator */,
+			);
+			path = InitialScreen;
+			sourceTree = "<group>";
+		};
+		CDEF76FC2378B02A00E63AAA /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				CDEF76FD2378B02A00E63AAA /* ApplicationSate.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		CDEF76FE2378B02A00E63AAA /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				CDEF76FF2378B02A00E63AAA /* InitialScreenModuleInput.swift */,
+				CDEF77002378B02A00E63AAA /* InitialScreenPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		CDEF77012378B02A00E63AAA /* Window */ = {
+			isa = PBXGroup;
+			children = (
+				CDEF77022378B02A00E63AAA /* ApplicationWindowOutput.swift */,
+				CDEF77032378B02A00E63AAA /* ApplicationWindow.swift */,
+			);
+			path = Window;
+			sourceTree = "<group>";
+		};
+		CDEF77042378B02A00E63AAA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CDEF77052378B02A00E63AAA /* InitialScreenViewController.storyboard */,
+				CDEF77062378B02A00E63AAA /* InitialScreenViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CDEF77072378B02A00E63AAA /* Configurator */ = {
+			isa = PBXGroup;
+			children = (
+				CDEF77082378B02A00E63AAA /* InitialScreenConfigurator.swift */,
+			);
+			path = Configurator;
+			sourceTree = "<group>";
+		};
+		CDEF77092378B02A00E63AAA /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				CDEF770A2378B02A00E63AAA /* InitialScreenRouter.swift */,
+				CDEF770B2378B02A00E63AAA /* InitialScreenRouterInput.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		CDEF77162378B12700E63AAA /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				CDEF77172378B12700E63AAA /* InitialScreenInteractorOutput.swift */,
+				CDEF77182378B12700E63AAA /* InitialScreenInteractorInput.swift */,
+				CDEF77192378B12700E63AAA /* InitialScreenInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
 		EBDBB785B6A8F1EE75B2C9DA /* Presenter */ = {
 			isa = PBXGroup;
 			children = (
@@ -681,6 +784,7 @@
 				CDB0D2052174AD6F0082CB25 /* Assets.xcassets in Resources */,
 				CD7873F42174D9DC0063130A /* UserDetailsNameTableViewCell.xib in Resources */,
 				CDB0D2252174BAEC0082CB25 /* UsersListViewController.storyboard in Resources */,
+				CDEF77112378B02A00E63AAA /* InitialScreenViewController.storyboard in Resources */,
 				CDEF76F12378940F00E63AAA /* TabBarViewController.storyboard in Resources */,
 				CDB0D2352174BDA80082CB25 /* UserTableViewCell.xib in Resources */,
 				ED1291940FC54AC079F2246E /* UserDetailsViewController.storyboard in Resources */,
@@ -737,11 +841,13 @@
 				CD7873F62174DA250063130A /* UserDetailsNameCellDisplayModel.swift in Sources */,
 				CDEF76F52378940F00E63AAA /* TabBarInteractor.swift in Sources */,
 				CDB0D2142174AED40082CB25 /* TableViewAdapter.swift in Sources */,
+				CDEF771B2378B12700E63AAA /* InitialScreenInteractorInput.swift in Sources */,
 				CDB0D2372174BE290082CB25 /* UserCellDisplayModel.swift in Sources */,
 				CDEF76F02378940F00E63AAA /* TabBarViewController.swift in Sources */,
 				CDB0D1FE2174AD6C0082CB25 /* AppDelegate.swift in Sources */,
 				CDB0D2462174CE300082CB25 /* UserDetailsAvatarTableCellAdapterOutput.swift in Sources */,
 				CD7873FA2174DB850063130A /* UserDetailsFirstNameTableCellAdapterOutput.swift in Sources */,
+				CDEF770F2378B02A00E63AAA /* ApplicationWindowOutput.swift in Sources */,
 				CDB0D2172174AF5A0082CB25 /* TableSectionAdapterInput.swift in Sources */,
 				CDD87DD72368E91C004BAE0F /* ImagePickerModuleOutput.swift in Sources */,
 				CD7874092174E3010063130A /* UserDetailsLastPositionTableCellAdapterOutput.swift in Sources */,
@@ -758,16 +864,24 @@
 				7C766AC6D761957C2B6A965A /* UsersListViewOutput.swift in Sources */,
 				CDEF76EC2378940F00E63AAA /* TabBarPresenter.swift in Sources */,
 				CDD87DCE2368E35D004BAE0F /* AlertScreenConfiguration.swift in Sources */,
+				CDEF770D2378B02A00E63AAA /* InitialScreenModuleInput.swift in Sources */,
+				CDEF770C2378B02A00E63AAA /* ApplicationSate.swift in Sources */,
 				CDEF76EE2378940F00E63AAA /* TabBarViewInput.swift in Sources */,
 				CDB0D24E2174CF860082CB25 /* UserDetailsAvatarCellDisplayModel.swift in Sources */,
 				CDEF76F42378940F00E63AAA /* TabBarInteractorOutput.swift in Sources */,
 				837B77F40EAF2A9FF3ED9F8E /* UsersListViewController.swift in Sources */,
 				0348C92B7293A250A689725D /* UsersListPresenter.swift in Sources */,
 				CDB0D2342174BDA80082CB25 /* UserTableViewCell.swift in Sources */,
+				CDEF771C2378B12700E63AAA /* InitialScreenInteractor.swift in Sources */,
 				CDD87DD22368E3C0004BAE0F /* String+Localization.swift in Sources */,
 				CDEF76EF2378940F00E63AAA /* TabBarViewOutput.swift in Sources */,
+				CDEF771A2378B12700E63AAA /* InitialScreenInteractorOutput.swift in Sources */,
+				CDEF77152378B02A00E63AAA /* InitialScreenRouterInput.swift in Sources */,
+				CDEF770E2378B02A00E63AAA /* InitialScreenPresenter.swift in Sources */,
 				CD7873FC2174DE970063130A /* UserDetailsLastNameTableCellAdapter.swift in Sources */,
 				A529B73C9C82C69B0855C8D4 /* UsersListRouterInput.swift in Sources */,
+				CDEF77142378B02A00E63AAA /* InitialScreenRouter.swift in Sources */,
+				CDEF77122378B02A00E63AAA /* InitialScreenViewController.swift in Sources */,
 				9EDC0E2308FD9B9B15E4F4C4 /* UsersListRouter.swift in Sources */,
 				CDEF76F82378940F00E63AAA /* TabBarRouter.swift in Sources */,
 				CD7873F82174DB6A0063130A /* UserDetailsFirstNameTableCellAdapter.swift in Sources */,
@@ -782,6 +896,7 @@
 				2AC87C2449B056C183A792E4 /* UserDetailsViewOutput.swift in Sources */,
 				DDC664EB23C9BE8F27DC21DF /* UserDetailsViewController.swift in Sources */,
 				DA958A28453E9A04945E4A36 /* UserDetailsPresenter.swift in Sources */,
+				CDEF77132378B02A00E63AAA /* InitialScreenConfigurator.swift in Sources */,
 				4317EE16860895D114173343 /* UserDetailsRouterInput.swift in Sources */,
 				CDEF76F22378940F00E63AAA /* TabBarConfigurator.swift in Sources */,
 				DEE0B1798DC1AAD2C54C30CB /* UserDetailsRouter.swift in Sources */,
@@ -791,6 +906,7 @@
 				AF377B888B943CDB1C6A933A /* UserDetailsConfigurator.swift in Sources */,
 				CD7874052174E0860063130A /* UserDetailsPositionCellDisplayModel.swift in Sources */,
 				CDD87DD52368E8FD004BAE0F /* ImagePickerModule.swift in Sources */,
+				CDEF77102378B02A00E63AAA /* ApplicationWindow.swift in Sources */,
 				CDEF76F32378940F00E63AAA /* TabBarInteractorInput.swift in Sources */,
 				CDEF76F62378940F00E63AAA /* TabBarRouterShowProtocol.swift in Sources */,
 				CDD87DD92368E933004BAE0F /* ShowImagePickerModuleRouter.swift in Sources */,

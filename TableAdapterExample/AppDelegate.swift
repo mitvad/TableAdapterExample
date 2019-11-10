@@ -26,18 +26,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 extension AppDelegate {
     
     private func setupMainModule() {
-        let applicationWindow = UIWindow(frame: UIScreen.main.bounds)
+        let applicationWindow = ApplicationWindow(frame: UIScreen.main.bounds)
         applicationWindow.backgroundColor = UIColor.white
         
-        let navigationVC = UINavigationController()
-        applicationWindow.rootViewController = navigationVC
+        let configurator = InitialScreenModuleConfigurator()
+        let moduleInput = configurator.configure(window: applicationWindow)
+        moduleInput.didFinishLaunchingApplication()
         
         applicationWindow.makeKeyAndVisible()
-        
-        let tabbarCV = TabBarViewController.instantiateFromStoryboard()
-        let configurator = TabBarModuleConfigurator()
-        configurator.configure(viewController: tabbarCV)
-        navigationVC.pushViewController(tabbarCV, animated: true)
         
         window = applicationWindow
     }
